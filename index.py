@@ -4,7 +4,7 @@ def main():
     url = str( input('[-] Enter a valid URL: ') )
 
     if  url.lower().find('bitly/') == -1 and url.lower().find('bit.ly/') == -1 and url.lower().find("bitly\ ".strip()) == -1 and url.lower().find('bit.ly\ '.strip()) == -1 :
-        print('This is not a Bitly URL...')
+        print('[!] This is not a Bitly URL...')
     else:
         if not url.startswith("https://") and not url.startswith("http://"):
             url = "http://" + url
