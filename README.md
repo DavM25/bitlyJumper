@@ -4,13 +4,10 @@ This is a Simple Python Script to **get the URL that a BitLy URL will redirect y
 
 ## Requirements
 - Have **Python Installed**. (._.)
-- Modules **requests** and **time** (this one should be installed) installed.
-
-    > `pip install requests, time`
-
+- Modules **requests** and **time** (this one should be installed). To install them, type `pip install requests, time` in your terminal.
 
 ## Usage
-Just **start the Script** ("python/python3 index.py"), **input a BitLy URL** and **you will get the real URL**.
+Just **start the Script** using `python/python3 index.py`, **input a BitLy URL** and **you will get the real URL**.
 
 
 
